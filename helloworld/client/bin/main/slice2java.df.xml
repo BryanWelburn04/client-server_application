@@ -1,0 +1,12 @@
+<state>
+  <timestamp value='1791503691510' />
+  <sourceSet name='default'>
+    <source name='/home/wmohr/SENG350/assign1/helloworld/Printer.ice'>
+      <file name='/home/wmohr/SENG350/assign1/helloworld/client/build/generated-src/Demo/Printer.java' />
+      <file name='/home/wmohr/SENG350/assign1/helloworld/client/build/generated-src/Demo/PrinterPrx.java' />
+      <file name='/home/wmohr/SENG350/assign1/helloworld/client/build/generated-src/Demo/_PrinterPrxI.java' />
+    </source>
+    <arg value='/opt/Ice-3.7.9/bin/slice2java' />
+    <arg value='-I/opt/Ice-3.7.9/slice' />
+  </sourceSet>
+</state>
