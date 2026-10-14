@@ -27,17 +27,25 @@ public class Client
             {
                 throw new Error("Invalid proxy");
             }
-
-            while(true)
+            int i = 0;
+            while(i < 9)
             {
                 
-                System.out.print("Enter your message to the server: ");
+                /*System.out.print("Enter your message to the server: ");
                 Scanner scanner = new Scanner(System.in);
                 String message = scanner.nextLine();
                 if(message.equals("exit"))
                 {
                     break;
+                }*/
+                Random r = new Random();
+                String message = Integer.toString(45 - r.nextInt(8)); //random number between 38 and 45 inclusive
+                if(i == 8)
+                {
+                    message = "exit";
                 }
+                System.out.println("Message: " + message);
+                
                 LocalDateTime timeStart = LocalDateTime.now();
                 String finalMessage;
 
@@ -73,6 +81,8 @@ public class Client
                     System.out.println("Final Fib number returned by server: " + finalFibNumber);
                     System.out.println();
                 }
+
+                i++;
             }
         }
 

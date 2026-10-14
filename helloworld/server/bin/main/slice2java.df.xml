@@ -1,12 +1,12 @@
 <state>
-  <timestamp value='1707968742551' />
+  <timestamp value='1791932462628' />
   <sourceSet name='default'>
-    <source name='/home/gtamura/own/cursos/swarch/resources/ICE/helloworld/Printer.ice'>
-      <file name='/home/gtamura/own/cursos/swarch/resources/ICE/helloworld/server/build/generated-src/Demo/Printer.java' />
-      <file name='/home/gtamura/own/cursos/swarch/resources/ICE/helloworld/server/build/generated-src/Demo/PrinterPrx.java' />
-      <file name='/home/gtamura/own/cursos/swarch/resources/ICE/helloworld/server/build/generated-src/Demo/_PrinterPrxI.java' />
+    <source name='/home/wmohr/SENG350/assign1/helloworld/client-server_application/helloworld/Printer.ice'>
+      <file name='/home/wmohr/SENG350/assign1/helloworld/client-server_application/helloworld/server/build/generated-src/Demo/Printer.java' />
+      <file name='/home/wmohr/SENG350/assign1/helloworld/client-server_application/helloworld/server/build/generated-src/Demo/PrinterPrx.java' />
+      <file name='/home/wmohr/SENG350/assign1/helloworld/client-server_application/helloworld/server/build/generated-src/Demo/_PrinterPrxI.java' />
     </source>
-    <arg value='/opt/Ice-3.7.6/bin/slice2java' />
-    <arg value='-I/opt/Ice-3.7.6/slice' />
+    <arg value='/opt/Ice-3.7.9/bin/slice2java' />
+    <arg value='-I/opt/Ice-3.7.9/slice' />
   </sourceSet>
 </state>
